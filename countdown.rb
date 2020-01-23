@@ -18,8 +18,8 @@ end
 #end
 
 def countdown_with_sleep(secs)
-  while secs <= 5
-    puts "#{secs} SECOND(S)!"
+  while secs > 0
+    puts "#{secs} SECOND(S)"
     secs -= 1
   end
   "HAPPY NEW YEAR!"
